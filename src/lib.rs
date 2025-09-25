@@ -18,7 +18,7 @@ mod protocol;
 pub mod utils;
 
 pub use self::prelude::*;
-pub use self::errors::*;
+pub use self::errors::{Error, RposError};
 
 pub use self::answers::RplidarResponseDeviceInfo;
 
